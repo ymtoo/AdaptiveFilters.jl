@@ -1,9 +1,9 @@
 module AdaptiveFilters
 using OnlineStats, DSP
 
-export adaptive_filter, focused_adaptive_filter, OMAP, MSPI, OMAS, ADAM, ExponentialWeight, EqualWeight
+export adaptive_filter, focused_adaptive_filter, OMAP, MSPI, OMAS, ADAM, ExponentialWeight, EqualWeight, l2regloss, l1regloss, logisticloss, l1hingeloss
 
-import OnlineStats: l2regloss, l1regloss, logisticloss, l1hingeloss
+using OnlineStats: l2regloss, l1regloss, logisticloss, l1hingeloss
 
 
 """

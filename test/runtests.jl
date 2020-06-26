@@ -1,7 +1,6 @@
 using AdaptiveFilters
 using Test, Statistics
 
-import OnlineStats: l1regloss
 
 @testset "AdaptiveFilters.jl" begin
     y = sin.(0:0.1:100)
